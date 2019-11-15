@@ -51,7 +51,7 @@
       >
 
         <template slot="items" slot-scope="props" >
-          <td>{{ props.item.customer }}</td>
+          <td>{{ props.item.customer_name }}</td>
           <td nowrap="true">{{ props.item.category }}</td>
           <td nowrap="true">{{ props.item.description }}</td>
           <td nowrap="true">{{ props.item.acquired_value }}</td>
